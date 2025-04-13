@@ -1,6 +1,5 @@
 // components/BackgroundSection.tsx
 'use client';
-import ConteudoPrincipal from './ConteudoPrincipal';
 
 export default function BackgroundSection() {
   return (

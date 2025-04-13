@@ -12,7 +12,7 @@ export default function Footer() {
             <h3 className="uppercase font-bold text-lg mb-2">CENTRAL DE ATENDIMENTO</h3>
             <div className="flex items-center gap-3">
               <FiPhone className="text-2xl" />
-              <span>00 0000-0000</span>
+              <span>85 99150-5505</span>
             </div>
           </div>
 
@@ -22,11 +22,11 @@ export default function Footer() {
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-3 justify-center md:justify-start">
                 <FiPhone className="text-2xl" />
-                <span>00 0000-0000</span>
+                <span>85 99150-5505</span>
               </div>
               <div className="flex items-center gap-3 justify-center md:justify-start">
                 <FiMail className="text-2xl" />
-                <span>exemplo@gmail.com</span>
+                <span>comercial@fiuzametal.com.br</span>
               </div>
             </div>
           </div>

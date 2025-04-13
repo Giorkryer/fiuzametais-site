@@ -32,9 +32,9 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-4">
             <NavLink href="/">HOME</NavLink>
-            <NavLink href="/sobre">SOBRE</NavLink>
-            <NavLink href="/mentoria">MENTORIA</NavLink>
-            <NavLink href="/contato">CONTATO</NavLink>
+            <NavLink href="#processo">SOBRE</NavLink>
+            <NavLink href="https://form.respondi.app/mdzhPm65">MENTORIA</NavLink>
+            <NavLink href="#contato">CONTATO</NavLink>
 
             {/* Ícones do Instagram e WhatsApp */}
             <div className="flex space-x-4 ml-4">
@@ -74,9 +74,9 @@ export default function Header() {
         <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} absolute top-full left-0 right-0 bg-[#E8E8E8] transition-all`}>
           <div className="flex flex-col items-center py-4 space-y-4">
             <MobileNavLink href="/" onClick={toggleMenu}>HOME</MobileNavLink>
-            <MobileNavLink href="/sobre" onClick={toggleMenu}>SOBRE</MobileNavLink>
-            <MobileNavLink href="/mentoria" onClick={toggleMenu}>MENTORIA</MobileNavLink>
-            <MobileNavLink href="/contato" onClick={toggleMenu}>CONTATO</MobileNavLink>
+            <MobileNavLink href="#processo" onClick={toggleMenu}>SOBRE</MobileNavLink>
+            <MobileNavLink href="https://form.respondi.app/mdzhPm65" onClick={toggleMenu}>MENTORIA</MobileNavLink>
+            <MobileNavLink href="#contato" onClick={toggleMenu}>CONTATO</MobileNavLink>
             <div className="flex space-x-6 pt-4">
               <a
                 href="https://instagram.com/fiuzametais"

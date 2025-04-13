@@ -18,19 +18,19 @@ export default function ProcessoSectionMobile() {
               Sobre o nosso processo
             </p>
             <h2 className="font-sans uppercase text-xl leading-[1.1] text-black font-extrabold">
-              LOREM IPSUM DOLOR SIT AMET, ADIPISCING ELIT. MORBI SIT AMET NULLA.
+            Processo Sustentável e Reciclagem Responsável
             </h2>
           </header>
           
           <p className="font-sans text-base text-black font-normal mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Na nossa sucata de médio porte, trabalhamos com responsabilidade ambiental e foco na reutilização de materiais. Recebemos diversos tipos de resíduos metálicos, como ferro, alumínio, cobre e aço, que passam por triagem, separação e pesagem. 
           </p>
         </article>
 
         {/* Imagem */}
-        <figure className="w-full h-64 rounded-[8px] overflow-hidden shadow-lg">
+        <figure className="w-full h-128 rounded-[8px] overflow-hidden shadow-lg">
           <Image
-            src="/imagemrandom.jpg"
+            src="/pauloimage.jpeg"
             alt="Processo de coleta móvel"
             width={600}
             height={400}

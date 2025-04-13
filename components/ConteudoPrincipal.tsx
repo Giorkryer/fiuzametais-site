@@ -3,21 +3,20 @@
 
 export default function ConteudoPrincipal() {
   return (
-    <div className="relative h-screen w-full"> {/* Container pai com posicionamento relativo */}
-      <div className="container mx-auto px-4 sm:px-8 h-full flex items-center"> {/* Centraliza verticalmente */}
+    <div className="relative h-screen w-full"> 
+      <div className="container mx-auto px-4 sm:px-8 h-full flex items-center">
         <div className="max-w-2xl lg:max-w-4xl space-y-6 md:space-y-8 text-white">
-          {/* Texto Principal */}
-          <h2 className="text-base md:text-base font-bold">
-            Lorem Ipsum is simply dummy text of the printing
+          <h2 className="text-base md:text-6xl font-bold">
+          CAPTAÇÃO E PROCESSAMENTO DE RESÍDUOS
           </h2>
 
           {/* Título */}
           <h1 className="text-3xl md:text-3xl font-bold leading-tight">
-            CAPTAÇÃO E PROCESSAMENTO DE RESÍDUOS
+            SUA SUCATA VALE DINHEIRO!
           </h1>
 
           {/* Texto Secundário */}
-          <p className="text-base md:text-base font-normal">
+          <p className="text-base md:text-lg font-normal">
             Somos especializados na coleta e processamento de todos os tipos de materiais recicláveis. 
             Nossa equipe de especialistas garante triagem eficiente, descarte adequado e soluções de 
             reciclagem ambientalmente responsáveis.

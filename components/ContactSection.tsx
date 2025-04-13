@@ -38,7 +38,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section 
+    <section id="contato"
       className="w-full bg-[#F0F0F0] py-16"
       aria-label="Seção de contato"
     >
@@ -72,14 +72,13 @@ export default function ContactSection() {
                 className="w-full px-6 py-5 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#30B78F] bg-white peer text-black"
                 placeholder=" "
                 required
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
               />
               <label className="absolute left-4 top-5 px-2 transform origin-left transition-all duration-200
                 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0
                 peer-focus:scale-75 peer-focus:-translate-y-8
                 scale-75 -translate-y-8
                 bg-white text-gray-500 font-medium pointer-events-none">
-                E-mail
+                E-mail ou WhatsApp
               </label>
             </div>
             <div className="relative">
