@@ -6,7 +6,7 @@ export default function ServicosSection() {
     {
       title: "Coleta de resíduos",
       description: "Proporcionamos orientação especializada para sucateiros, com dicas práticas e estratégias para maximizar a eficiência e a rentabilidade no setor de reciclagem.",
-      link: "https://wa.me/558591505505"
+      link: "https://wa.me/5585992537639"
     },
     {
       title: "Mentoria para Recicladores",

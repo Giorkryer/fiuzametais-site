@@ -67,7 +67,7 @@ export default function ContactSection() {
             </div>
             <div className="relative">
               <input
-                type="email"
+                type="text"
                 name="user_email"
                 className="w-full px-6 py-5 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#30B78F] bg-white peer text-black"
                 placeholder=" "
